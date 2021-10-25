@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   question: Which character speaks the first line in the original Star Wars movie?
+  answers:
+  - Princess Leia
+  - C-3PO
+  - R2-D2
+  - Darth Vader
+  correctAnswerIndex: 1
