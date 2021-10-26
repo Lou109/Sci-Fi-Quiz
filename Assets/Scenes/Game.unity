@@ -856,7 +856,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 2
+  m_characterSpacing: 5
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -908,6 +908,7 @@ GameObject:
   - component: {fileID: 1054322426}
   - component: {fileID: 1054322425}
   - component: {fileID: 1054322424}
+  - component: {fileID: 1054322428}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -997,6 +998,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1054322428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054322423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c250cbcc9124a6a83ac60438457698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1004527832}
+  question: {fileID: 11400000, guid: 77e42c04a485d4578b3e346dd5115b8b, type: 2}
 --- !u!224 &1142337105 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6763260987644336896, guid: b976b3dd628444a11bdb732925e114a7, type: 3}
