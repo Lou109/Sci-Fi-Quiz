@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 165892926}
+  - component: {fileID: 165892927}
   m_Layer: 0
   m_Name: Timer
   m_TagString: Untagged
@@ -147,13 +148,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165892925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1007.81494, y: 652.6626, z: -20.777954}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &165892927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165892925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88384760af8c240839ddd0f9886148bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToCompleteQuestion: 15
+  timeToShowCorrectAnswer: 5
+  loadNextQuestion: 0
+  fillFraction: 0
+  isAnsweringQuesion: 0
 --- !u!1 &287751597
 GameObject:
   m_ObjectHideFlags: 0
@@ -835,8 +853,9 @@ MonoBehaviour:
   - {fileID: 1412777970}
   - {fileID: 1094187355}
   - {fileID: 1599616768}
-  defaultAnserSprite: {fileID: 21300000, guid: 88185b3d85ea741fabf044951eb7847c, type: 3}
+  defaultAnswerSprite: {fileID: 21300000, guid: 88185b3d85ea741fabf044951eb7847c, type: 3}
   correctAnswerSprite: {fileID: 21300000, guid: 3c31314731d5643d0bae5548d37b0935, type: 3}
+  timerImage: {fileID: 1770710006}
 --- !u!1001 &1094187353
 PrefabInstance:
   m_ObjectHideFlags: 0
