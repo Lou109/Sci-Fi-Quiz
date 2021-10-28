@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 5
   m_EditorClassIdentifier: 
   question: In the Planet of the Apes movies, what planet are the apes from?
+  answers:
+  - Mars
+  - Uranus
+  - Earth
+  - Colobus
+  correctAnswerIndex: 2

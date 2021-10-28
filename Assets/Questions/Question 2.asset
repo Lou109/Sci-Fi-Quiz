@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 2
   m_EditorClassIdentifier: 
   question: In what year did the Darleks first appear in Doctor Who?
+  answers:
+  - 1954
+  - 1963
+  - 1971
+  - 1982
+  correctAnswerIndex: 1

@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: 'What exactly is Deep Space Nine in the television series Star Trek:
     Deep Space Nine?'
+  answers:
+  - Planet
+  - Alien
+  - Robot
+  - Space Station
+  correctAnswerIndex: 3

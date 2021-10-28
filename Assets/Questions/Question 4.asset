@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: They first appeared in the original TV show of Battlestar Galactica.
     They are robots built by an extinct reptilian race
+  answers:
+  - Galactians
+  - Robotrons
+  - Cylons
+  - Cybermen
+  correctAnswerIndex: 2
